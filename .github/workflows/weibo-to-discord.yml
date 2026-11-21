@@ -12,7 +12,7 @@ on:
         required: false
         default: "0"
         type: choice
-        options: ["0", "1", "2", "3", "5"]
+        options: ["0", "1", "2", "3", "5", "10"]
 
 permissions:
   contents: write   # nodig om state.json / products.json terug te committen

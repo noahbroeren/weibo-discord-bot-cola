@@ -40,7 +40,7 @@ jobs:
           WORKSHOP_NAME: "Cola Studio"
           FALLBACK_TITLE: "COLA STUDIO"
           # Kop boven elk bericht; {title} = producttitel. Zie README voor alternatieven.
-          HEADER_TEMPLATE: "**Cola Studio Update | {title}**"
+          HEADER_TEMPLATE: "# Cola Studio Update // {title}"
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           # Alleen nodig als Weibo het runner-IP blokkeert; zie README

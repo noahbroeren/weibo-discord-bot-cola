@@ -7,7 +7,7 @@ m.weibo.cn JSON-API, laat Claude de tekst vertalen/verbeteren EN het
 product bepalen op basis van tekst + foto's, en post het geheel naar
 Discord in het vaste formaat:
 
-    **Cola Studio Update | PRODUCTNAAM IN CAPS**
+    # Cola Studio Update // PRODUCTNAAM IN CAPS
 
     Vertaalde tekst.
 
@@ -48,7 +48,7 @@ FALLBACK_TITLE = os.environ.get("FALLBACK_TITLE", "COLA STUDIO")
 # Kop boven elk Discord-bericht. {title} wordt vervangen door de producttitel.
 # Instelbaar via de workflow, zodat meerdere servers dezelfde code kunnen delen.
 HEADER_TEMPLATE = os.environ.get(
-    "HEADER_TEMPLATE", "**Cola Studio Update | {title}**"
+    "HEADER_TEMPLATE", "# Cola Studio Update // {title}"
 )
 
 WEIBO_HEADERS = {

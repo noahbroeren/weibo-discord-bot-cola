@@ -5,7 +5,7 @@ vertalen naar vloeiend Engels en bepalen om welk product het gaat (op basis van
 de tekst en de foto's), en post het geheel naar `#updates` in het vaste formaat:
 
 ```
-# Cola Studio Update // CANADA GOOSE JACKETS
+### Cola Studio Update // CANADA GOOSE JACKETS
 
 De vertaalde tekst van de Weibo-post.
 ```
@@ -88,10 +88,10 @@ Het Weibo user-id, de studionaam en de berichtkop staan in
 ### Berichtkop aanpassen
 
 De kop wordt ingesteld met `HEADER_TEMPLATE` in de workflow (`{title}` wordt
-de producttitel). Standaard: `# Cola Studio Update // {title}`, zodat het
+de producttitel). Standaard: `### Cola Studio Update // {title}`, zodat het
 duidelijk anders is dan de 718 Made-bot. Alternatieven:
 
-1. `# Cola Studio Update // {title}`
+1. `### Cola Studio Update // {title}`
 2. `**{title} | Cola Studio**`
 3. `**Cola Report: {title}**`
 4. `**Studio Log | {title}**`
